@@ -1,6 +1,6 @@
 module github.com/stackup-wallet/stackup-bundler
 
-go 1.20
+go 1.24.0
 
 require (
 	github.com/deckarep/golang-set/v2 v2.3.0
@@ -29,7 +29,7 @@ require (
 	go.opentelemetry.io/otel/sdk v1.16.0
 	go.opentelemetry.io/otel/sdk/metric v0.39.0
 	go.opentelemetry.io/otel/trace v1.16.0
-	golang.org/x/sync v0.1.0
+	golang.org/x/sync v0.19.0
 	golang.org/x/text v0.9.0
 	google.golang.org/grpc v1.55.0
 )
